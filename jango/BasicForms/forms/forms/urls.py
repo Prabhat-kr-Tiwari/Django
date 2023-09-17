@@ -21,5 +21,5 @@ from formsapp import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('get_name/',views.get_name,name="get_name"),
-    path('thanks/',views.thanks,name="thanks")
+    path('thanks/',views.thanks,name="thanks"),
 ]
